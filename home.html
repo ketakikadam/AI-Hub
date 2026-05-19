@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+<nav>
+
+    <h1>AI Hub</h1>
+
+    <div class="nav-buttons">
+
+        <!-- DARK MODE -->
+        <button id="darkModeBtn">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+
+        <!-- LOGOUT -->
+        <button id="logoutBtn">
+
+            Logout
+
+        </button>
+
+    </div>
+
+</nav>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h2>Discover Trending AI Tools</h2>
+
+        <p>
+            Find the best AI tools for coding,
+            images, videos, productivity and more.
+        </p>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search AI tools..."
+        >
+
+    </section>
+
+
+    <!-- CATEGORY BUTTONS -->
+    <section class="categories">
+
+        <button
+            class="category-btn"
+            data-category="all"
+        >
+            All
+        </button>
+
+        <button
+            class="category-btn"
+            data-category="coding"
+        >
+            Coding
+        </button>
+
+        <button
+            class="category-btn"
+            data-category="image"
+        >
+            Image
+        </button>
+
+        <button
+            class="category-btn"
+            data-category="video"
+        >
+            Video
+        </button>
+
+        <button
+            class="category-btn"
+            data-category="study"
+        >
+            Study
+        </button>
+
+    </section>
+
+
+    <!-- TOOL CARDS -->
+    <section class="tools-container">
+
+
+        <!-- CHATGPT -->
+        <div class="tool-card" data-category="coding">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h3>ChatGPT</h3>
+
+            <p>
+                AI chatbot for coding, writing and learning.
+            </p>
+
+            <a href="https://chatgpt.com" target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- CANVA -->
+        <div class="tool-card" data-category="image">
+
+            <i class="fa-solid fa-image"></i>
+
+            <h3>Canva AI</h3>
+
+            <p>
+                Create AI generated designs and images.
+            </p>
+
+            <a href="https://www.canva.com" target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- RUNWAY -->
+        <div class="tool-card" data-category="video">
+
+            <i class="fa-solid fa-video"></i>
+
+            <h3>Runway ML</h3>
+
+            <p>
+                Create AI videos and edit content easily.
+            </p>
+
+            <a href="https://runwayml.com" target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- NOTION -->
+        <div class="tool-card" data-category="study">
+
+            <i class="fa-solid fa-book"></i>
+
+            <h3>Notion AI</h3>
+
+            <p>
+                AI note-taking and productivity assistant.
+            </p>
+
+            <a href="https://www.notion.so" target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- COPILOT -->
+        <div class="tool-card" data-category="coding">
+
+            <i class="fa-solid fa-laptop-code"></i>
+
+            <h3>GitHub Copilot</h3>
+
+            <p>
+                AI coding assistant for developers.
+            </p>
+
+            <a href="https://github.com/features/copilot"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- FIREFLY -->
+        <div class="tool-card" data-category="image">
+
+            <i class="fa-solid fa-palette"></i>
+
+            <h3>Adobe Firefly</h3>
+
+            <p>
+                Generate AI images and creative designs.
+            </p>
+
+            <a href="https://firefly.adobe.com"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- GRRAMMARLY -->
+        <div class="tool-card" data-category="study">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h3>Grammarly AI</h3>
+
+            <p>
+                AI writing assistant for grammar and writing.
+            </p>
+
+            <a href="https://www.grammarly.com"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- BLACKBOX -->
+        <div class="tool-card" data-category="coding">
+
+            <i class="fa-solid fa-robot"></i>
+
+            <h3>Blackbox AI</h3>
+
+            <p>
+                AI coding helper for developers and students.
+            </p>
+
+            <a href="https://www.blackbox.ai"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- PICTORY -->
+        <div class="tool-card" data-category="video">
+
+            <i class="fa-solid fa-film"></i>
+
+            <h3>Pictory AI</h3>
+
+            <p>
+                Convert text into engaging AI videos instantly.
+            </p>
+
+            <a href="https://pictory.ai"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+        <!-- LEONARDO -->
+        <div class="tool-card" data-category="image">
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            <h3>Leonardo AI</h3>
+
+            <p>
+                Generate stunning AI artwork and graphics.
+            </p>
+
+            <a href="https://leonardo.ai"
+            target="_blank">
+                Visit
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>AI Hub</h3>
+
+        <p>
+            Discover the future of AI tools.
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
