@@ -27,3 +27,4 @@ Frontend Web Development Project
 ## Author
 
 Ketaki Kadam
+Riya Patil
